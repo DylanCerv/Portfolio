@@ -10,48 +10,50 @@ import { IoLogoFigma } from "react-icons/io5";
 
 export const SKILLS_TECHNICAL = [
     {
-        title: "Frontend Stack",
+        title: "Tecnologías Principales",
+        description: "JavaScript, TypeScript, Node.js, APIs REST, Arquitectura Backend, Lógica de Negocio",
         skills: [
-            {name: "React", icon: <FaReact />},
-            // {name: "Angular", icon: <FaAngular />},
             {name: "JavaScript", icon: <RiJavascriptFill />},
             {name: "TypeScript", icon: <BiLogoTypescript />},
-            {name: "SASS", icon: <FaSass />},
-            {name: "TailwindCSS", icon: <SiTailwindcss />},
-            {name: "HTML", icon: <FaHtml5 />},
-            {name: "CSS", icon: <FaCss3Alt />},
-            // {name: "Bootstrap", icon: <FaBootstrap />},
-            {name: "Next.js", icon: <TbBrandNextjs />},
+            {name: "NodeJS", icon: <FaNodeJs />},
         ]
     },
     {
-        title: "Backend Stack",
+        title: "Backend & Datos",
+        description: "Node.js, Express, Supabase (PostgreSQL, RLS), MongoDB, MySQL, Autenticación y Autorización (JWT), Optimización de Consultas, Migraciones de Datos, Indexación, PHP, Laravel, Symfony",
         skills: [
             {name: "NodeJS", icon: <FaNodeJs />},
             {name: "Express", icon: <SiExpress />},
+            {name: "MongoDB", icon: <SiMongodb />},
+            {name: "MySQL", icon: <SiMysql />},
             {name: "PHP", icon: <FaPhp />},
             {name: "Laravel", icon: <FaLaravel />},
             {name: "Symfony", icon: <FaSymfony />},
-            {name: "AWS", icon: <FaAws />},
-            // {name: "GCP", icon: <SiGooglecloud />},
-            {name: "Firebase", icon: <SiFirebase />},
-            {name: "MySQL", icon: <SiMysql />},
-            {name: "MongoDB", icon: <SiMongodb />},
-            {name: "Postman", icon: <SiPostman />},
-            {name: "Python", icon: <FaPython />},
-            // {name: "Swagger", icon: <SiSwagger />},
-            // {name: "Composer", icon: <SiComposer />},
         ]
     },
     {
-        title: "Otras Herramientas",
+        title: "Frontend",
+        description: "React, Next.js, React Native, Angular, HTML, CSS, SASS, TailwindCSS",
         skills: [
-            {name: "Figma", icon: <FaFigma />},
-            {name: "Trello", icon: <FaTrello />},
+            {name: "React", icon: <FaReact />},
+            {name: "Next.js", icon: <TbBrandNextjs />},
+            {name: "Angular", icon: <FaAngular />},
+            {name: "HTML", icon: <FaHtml5 />},
+            {name: "CSS", icon: <FaCss3Alt />},
+            {name: "SASS", icon: <FaSass />},
+            {name: "TailwindCSS", icon: <SiTailwindcss />},
+        ]
+    },
+    {
+        title: "Cloud & Herramientas",
+        description: "AWS, Stripe, Git, Postman, Firebase, Trello",
+        skills: [
+            {name: "AWS", icon: <FaAws />},
             {name: "Git", icon: <FaGitAlt />},
-            // {name: "Github", icon: <FaGithub />},
-            // {name: "Google Colab", icon: <SiGooglecolab />},
-            // {name: "Numpy", icon: <SiNumpy />},
+            {name: "Postman", icon: <SiPostman />},
+            {name: "Firebase", icon: <SiFirebase />},
+            {name: "Trello", icon: <FaTrello />},
+            {name: "Figma", icon: <FaFigma />},
         ]
     },
 ]
