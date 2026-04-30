@@ -87,3 +87,40 @@ body {
 .scroll-carrusel::-webkit-scrollbar  {
   display: none;
 }
+
+/* ── /new-portfolio theme ── */
+[data-np-theme="light"] {
+  color: #3f3f46;
+}
+
+[data-np-theme="dark"] {
+  color: #94a3b8;
+}
+
+[data-np-theme="light"] .card {
+  animation: none !important;
+  background-image: none !important;
+  background-color: #fff !important;
+  border-color: #e4e4e7 !important;
+  box-shadow: none !important;
+}
+
+[data-np-theme="light"] main.np-main {
+  color: #52525b;
+}
+
+[data-np-theme="light"] main.np-main h1,
+[data-np-theme="light"] main.np-main h2,
+[data-np-theme="light"] main.np-main h3 {
+  color: #09090b;
+}
+
+[data-np-theme="dark"] main.np-main {
+  color: #94a3b8;
+}
+
+[data-np-theme="dark"] main.np-main h1,
+[data-np-theme="dark"] main.np-main h2,
+[data-np-theme="dark"] main.np-main h3 {
+  color: #e5e7eb;
+}

@@ -26,3 +26,7 @@ dist-ssr
 # Firebase directories
 .firebase
 .firebaserc
+
+# Environment variables
+.env
+server/.env
