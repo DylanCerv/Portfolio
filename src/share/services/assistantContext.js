@@ -38,7 +38,7 @@ WORK EXPERIENCE:
    - Symfony + React migration, automation scripts (70% faster), DB optimization
    Stack: PHP, Symfony, React, MySQL
 
-IMPACT: ~30s→<500ms API latency | 1M+ records migrated | 70% faster automation | JWT+RLS auth from scratch | 4 production systems | 3+ years remote
+IMPACT: ~30s→<500ms API latency | 4M+ records migrated | 70% faster automation | JWT+RLS auth from scratch | 4 production systems | 3+ years remote
 
 SECURITY: JWT auth flows, RLS in Supabase/PostgreSQL, audit report remediation, API hardening, session management. Security-minded backend engineer, not a dedicated security specialist.
 

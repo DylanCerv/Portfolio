@@ -5,19 +5,13 @@ import { createBrowserRouter } from "react-router-dom";
  **** **** **** **** ***** */
 import Landing from "../pages/Landing";
 import NewPortfolio from "../pages/NewPortfolio";
-import PortfolioV2 from "../pages/PortfolioV2/PortfolioV2";
-import BlogArticle from "../pages/PortfolioV2/blog/BlogArticle";
 import PageNotFound from "../pages/Errors/PageNotFound";
 
 
 export const router = createBrowserRouter([
     {
         path: '/',
-        element: <PortfolioV2 />,
-    },
-    {
-        path: '/blog/:slug',
-        element: <BlogArticle />,
+        element: <NewPortfolio />,
     },
     {
         path: '/classic',

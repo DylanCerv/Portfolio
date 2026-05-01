@@ -139,7 +139,7 @@ function NewPortfolioInner() {
       {/* ── Hero ── */}
       <section id="hero" data-np-section="hero" className="flex flex-col gap-6">
         <p className="font-mono text-xs font-medium uppercase tracking-widest text-blue-500">
-          {HERO.roleTag}
+          Software Engineer · Backend & APIs
         </p>
 
         <h1 className="max-w-2xl text-3xl font-bold leading-[1.2] text-zinc-900 sm:text-4xl lg:text-[2.75rem] dark:text-gray-100">
@@ -155,9 +155,10 @@ function NewPortfolioInner() {
         </p>
 
         <ul className="flex flex-wrap gap-2">
-          {HERO.badges.map((b) => (
-            <StatBadge key={b.label} value={b.value} label={b.label} />
-          ))}
+          <StatBadge value="3+" label="years in production" />
+          <StatBadge value="Backend" label="primary role" />
+          <StatBadge value="JS / TS" label="main stack" />
+          <StatBadge value="Remote" label="UTC-5" />
         </ul>
 
         <div className="flex flex-wrap items-center gap-3 pt-2">
