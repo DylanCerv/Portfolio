@@ -62,7 +62,7 @@ export default function PortfolioV2() {
         <p className="text-xs text-slate-600">
           © 2026 Dylan España Cervantes · Todos los derechos reservados.
         </p>
-        <p className="mt-2 text-xs text-slate-700">
+        {/* <p className="mt-2 text-xs text-slate-700">
           Hecho con{" "}
           <span className="text-red-500/60" aria-hidden>
             ♥
@@ -74,7 +74,7 @@ export default function PortfolioV2() {
           >
             Ver versión anterior →
           </Link>
-        </p>
+        </p> */}
       </footer>
     </div>
   );
