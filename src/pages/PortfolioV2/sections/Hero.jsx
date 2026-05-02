@@ -115,14 +115,14 @@ export default function Hero() {
                   <img
                     src={V2_HERO.avatarSrc}
                     alt={V2_HERO.displayName}
-                    className="h-20 w-20 rounded-full object-cover ring-2 ring-violet-500/40 shadow-lg shadow-violet-500/20"
+                    className="h-24  w-24   rounded-full object-cover ring-2 ring-violet-500/40 shadow-lg shadow-violet-500/20"
                   />
                 ) : (
                   <div className="flex h-20 w-20 items-center justify-center rounded-full bg-gradient-to-br from-violet-600 to-blue-600 text-xl font-bold text-white ring-2 ring-violet-500/30 ring-offset-2 ring-offset-[#080c18] shadow-lg shadow-violet-500/20">
                     {V2_HERO.initials}
                   </div>
                 )}
-                <span className="absolute bottom-0.5 right-0.5 h-3.5 w-3.5 rounded-full bg-emerald-400 ring-2 ring-[#080c18]" />
+                <span className="absolute bottom-1.5 right-1.5 h-3.5 w-3.5 rounded-full bg-emerald-400 ring-2 ring-[#080c18]" />
               </div>
               <div>
                 <p className="font-semibold text-slate-100">{V2_HERO.displayName}</p>

@@ -20,8 +20,8 @@ export const V2_HERO = {
   /** Initials used as avatar placeholder until a photo is provided */
   initials: "DE",
   /** Replace avatarSrc with a real photo URL/path when available */
-  avatarSrc: null,
-  displayName: "Dylan España",
+  avatarSrc: "/img/me.png",
+  displayName: "Dylan España Cervantes",
   roleShort: "Backend & Systems Engineer",
   headlineParts: [
     { text: "Diseño sistemas ", gradient: false },
